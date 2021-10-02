@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2525"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#2B2525"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/my_first_android"
+        android:textAlignment="center"
+        android:textColor="#D18E8E"
+        android:textColorHint="#EFE7E7"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#2B2525"
+        android:text="@string/application"
+        android:textAlignment="center"
+        android:textColor="#D18E8E"
+        android:textColorHighlight="#B57474"
+        android:textColorHint="#CC9D9D"
+        android:textColorLink="#A67A7A"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Application" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#490808"
+        android:backgroundTint="@android:color/holo_red_dark"
+        app:srcCompat="@mipmap/butterfly_foreground"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B59494"
+        android:backgroundTint="#2B2525"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Username"
+        android:textColor="#D18E8E"
+        android:textColorHighlight="#D18E8E"
+        tools:ignore="TextContrastCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734242"
+        android:backgroundTint="#2B2525"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Password"
+        android:textColor="#D18E8E"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D18E8E"
+        android:text="Logın"
+        android:textColor="#1E0B0B"
+        android:textSize="20sp"
+        tools:text="Logın" />
+
+</LinearLayout>
